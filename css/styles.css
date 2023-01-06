@@ -1,0 +1,246 @@
+.nav-link:hover
+  {
+    background-color: azure;
+  }
+
+nav
+  {
+  background-color: beige;
+  font-family: 'Helvetica';
+  }
+
+.nav-top
+  {
+  color: black;
+  }
+
+.nav-item
+  {
+  font-family: 'cooper black';
+  color:rgb(222, 69, 53);
+  }
+
+.nav-sign
+{
+  font-family: 'cooper black';
+}
+
+body
+  {
+    font-family: 'helvetica';
+    background-color: ivory;
+  }
+
+h1, .navbar-text
+  {
+    font-family: 'cooper black';
+    color:rgb(222, 69, 53);
+    text-align: center;
+  } 
+
+.h1-pw
+  {
+    font-family: 'cooper black';
+    color:rgb(222, 69, 53);
+    padding-left: 110px;
+  }
+
+  h5
+  {
+    font-family: 'helvetica';
+  }
+
+.card
+  {
+    text-align: center;
+    font-family: 'helvetica';
+    color: black;
+    border: none;
+  }
+
+  .carousel-img
+  {
+    width: 50%;
+    height: 50%;
+  }
+
+.d-flex
+  {
+  background-color:beige;
+  }
+
+
+.home-border
+  {
+  background-color: beige;
+  }
+
+.about-border
+  {
+  background-color:  beige;
+  }
+
+.testimony-wrap
+  {
+  max-height: 600px;
+  max-width: 1200px;
+  }
+
+.schedule-table 
+  {
+  background-color: azure;
+  }
+
+.book-button
+  {
+  margin-left: 450px;
+  padding-left: 200px;
+  padding-right: 200px;
+  }
+
+.card-body, .card-header, .card-footer
+  {
+  background-color: azure;
+  }
+
+.accordion-item, .accordion-header, .accordion-button, .accordion-collapse, .accordion-body
+  {
+  background-color: azure !important;
+  text-decoration:none;
+  color:black;
+  }
+
+footer
+  {
+  background-color: beige;
+  font-family: 'helvetica';
+  }
+ 
+.footer-heading
+  {
+  font-family: 'cooper black';
+  color:rgb(222, 69, 53);
+  }
+
+.footer-link
+  {
+  text-decoration: none;
+  color:black;
+  }
+
+.footer-link:hover
+  {
+  text-decoration: none;
+  color:rgb(222, 69, 53);
+  }
+
+  /* CAROUSEL CSS */
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+.owl-carousel {
+  position: relative; }
+  .owl-carousel .owl-stage-outer {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    position: relative; }
+  .owl-carousel .owl-item {
+    opacity: 1; }
+    .owl-carousel .owl-item.active {
+      opacity: 1; }
+  .owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: inline-block; }
+    .owl-carousel .owl-nav .owl-prev,
+    .owl-carousel .owl-nav .owl-next {
+      position: absolute;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      margin-top: 0px;
+      color: rgba(0, 0, 0, 0.2) !important;
+      -webkit-transition: 0.7s;
+      -o-transition: 0.7s;
+      transition: 0.7s;
+      opacity: 1; }
+      @media (prefers-reduced-motion: reduce) {
+        .owl-carousel .owl-nav .owl-prev,
+        .owl-carousel .owl-nav .owl-next {
+          -webkit-transition: none;
+          -o-transition: none;
+          transition: none; } }
+      .owl-carousel .owl-nav .owl-prev p span, .owl-carousel .owl-nav .owl-prev p small,
+      .owl-carousel .owl-nav .owl-next p span,
+      .owl-carousel .owl-nav .owl-next p small {
+        display: block;
+        color: #000;
+        line-height: .8;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        @media (prefers-reduced-motion: reduce) {
+          .owl-carousel .owl-nav .owl-prev p span, .owl-carousel .owl-nav .owl-prev p small,
+          .owl-carousel .owl-nav .owl-next p span,
+          .owl-carousel .owl-nav .owl-next p small {
+            -webkit-transition: none;
+            -o-transition: none;
+            transition: none; } }
+      .owl-carousel .owl-nav .owl-prev small,
+      .owl-carousel .owl-nav .owl-next small {
+        text-transform: uppercase; }
+      .owl-carousel .owl-nav .owl-prev span,
+      .owl-carousel .owl-nav .owl-next span {
+        line-height: 0; }
+        .owl-carousel .owl-nav .owl-prev span:before,
+        .owl-carousel .owl-nav .owl-next span:before {
+          font-size: 40px;
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s; }
+          @media (prefers-reduced-motion: reduce) {
+            .owl-carousel .owl-nav .owl-prev span:before,
+            .owl-carousel .owl-nav .owl-next span:before {
+              -webkit-transition: none;
+              -o-transition: none;
+              transition: none; } }
+      .owl-carousel .owl-nav .owl-prev:hover small,
+      .owl-carousel .owl-nav .owl-next:hover small {
+        color: #dbcc8f; }
+      .owl-carousel .owl-nav .owl-prev:hover span:before,
+      .owl-carousel .owl-nav .owl-next:hover span:before {
+        color: #dbcc8f; }
+    .owl-carousel .owl-nav .owl-prev {
+      left: 0; }
+    .owl-carousel .owl-nav .owl-next {
+      right: 0; }
+  .owl-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px; }
+    .owl-carousel .owl-dots .owl-dot {
+      width: 10px;
+      height: 10px;
+      margin: 5px;
+      border-radius: 50%;
+      background: transparent;
+      position: relative;
+      border: 1px solid #000; }
+      .owl-carousel .owl-dots .owl-dot:hover, .owl-carousel .owl-dots .owl-dot:focus {
+        outline: none !important; }
+      .owl-carousel .owl-dots .owl-dot.active {
+        background: #dbcc8f;
+        border: 1px solid #dbcc8f; }
+
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y; }
+
+
+
+
